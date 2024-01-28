@@ -29,6 +29,7 @@ export const Examples = () => {
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        ButtonsContainer="menu"
         buttons={
           <>
             {" "}

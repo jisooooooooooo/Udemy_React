@@ -1,11 +1,10 @@
 import React from "react";
 
-export const Tabs = ({ children, buttons }) => {
+export const Tabs = ({ children, buttons, ButtonsContainer }) => {
+  // const ButtonsContainer = buttonsContainer;
   return (
     <>
-      <menu>
-        {buttons}
-      </menu>
+      <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>
   );
